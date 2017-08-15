@@ -1,0 +1,23 @@
+//
+//  PrefixHeader.pch
+//  封装Tabbar和Navgationbar
+//
+//  Created by USER on 16/3/10.
+//  Copyright © 2016年 UnderZero. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "UIView+Extension.h"
+#import "UIBarButtonItem+Extension.h"
+
+
+#ifdef DEBUG // 处于开发阶段
+#define SCLog(...) NSLog(__VA_ARGS__)
+#else // 处于发布阶段
+#define SCLog(...)
+#endif
+
+
+#endif

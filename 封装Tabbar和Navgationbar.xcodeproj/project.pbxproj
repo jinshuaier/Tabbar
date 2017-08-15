@@ -1,0 +1,688 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F90374F1E07E4FD00FF76AD /* hViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F90374E1E07E4FD00FF76AD /* hViewController.m */; };
+		8F9037551E07E51400FF76AD /* gViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F9037541E07E51400FF76AD /* gViewController.m */; };
+		8F9037581E07E52000FF76AD /* bViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F9037571E07E52000FF76AD /* bViewController.m */; };
+		8F90375B1E07E5BD00FF76AD /* hggBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F90375A1E07E5BD00FF76AD /* hggBar.m */; };
+		8FBC80041DDAE7720057B07D /* TCHGGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FBC80031DDAE7720057B07D /* TCHGGViewController.m */; };
+		B93577691F42D11600238F0B /* OtherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B93577681F42D11600238F0B /* OtherViewController.m */; };
+		CE58A90A1C91146100433817 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE58A9091C91146100433817 /* main.m */; };
+		CE58A90D1C91146100433817 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE58A90C1C91146100433817 /* AppDelegate.m */; };
+		CE58A9131C91146100433817 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE58A9111C91146100433817 /* Main.storyboard */; };
+		CE58A9151C91146100433817 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE58A9141C91146100433817 /* Assets.xcassets */; };
+		CE58A9181C91146100433817 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE58A9161C91146100433817 /* LaunchScreen.storyboard */; };
+		CE58A9231C91146100433817 /* __Tabbar_NavgationbarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE58A9221C91146100433817 /* __Tabbar_NavgationbarTests.m */; };
+		CE58A92E1C91146100433817 /* __Tabbar_NavgationbarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE58A92D1C91146100433817 /* __Tabbar_NavgationbarUITests.m */; };
+		CE58A9411C91170200433817 /* JseTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = CE58A9401C91170200433817 /* JseTabBar.m */; };
+		CE58A9451C91178200433817 /* TitleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CE58A9441C91178200433817 /* TitleButton.m */; };
+		CE58A9511C9118A600433817 /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = CE58A9501C9118A600433817 /* UIBarButtonItem+Extension.m */; };
+		CE58A9541C9118AC00433817 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = CE58A9531C9118AC00433817 /* UIView+Extension.m */; };
+		CE58A95C1C911A1100433817 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE58A95B1C911A1100433817 /* MainViewController.m */; };
+		CE58A95F1C911A3D00433817 /* GatherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE58A95E1C911A3D00433817 /* GatherViewController.m */; };
+		CE58A9621C911A4E00433817 /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE58A9611C911A4E00433817 /* MineViewController.m */; };
+		CE58A9661C911CEC00433817 /* JseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE58A9651C911CEC00433817 /* JseViewController.m */; };
+		CE58A9681C91247000433817 /* tab_ico_alliance_nor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE58A9671C91247000433817 /* tab_ico_alliance_nor@2x.png */; };
+		CE58A96A1C91247500433817 /* tab_ico_alliance_nor@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE58A9691C91247500433817 /* tab_ico_alliance_nor@3x.png */; };
+		CE58A96C1C91247A00433817 /* tab_ico_alliance_sel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE58A96B1C91247A00433817 /* tab_ico_alliance_sel@2x.png */; };
+		CE58A96E1C91247E00433817 /* tab_ico_alliance_sel@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE58A96D1C91247E00433817 /* tab_ico_alliance_sel@3x.png */; };
+		CE58A9701C91248800433817 /* tab_ico_index_nor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE58A96F1C91248800433817 /* tab_ico_index_nor@2x.png */; };
+		CE58A9721C91248E00433817 /* tab_ico_index_nor@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE58A9711C91248E00433817 /* tab_ico_index_nor@3x.png */; };
+		CE58A9741C91249300433817 /* tab_ico_index_set@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE58A9731C91249300433817 /* tab_ico_index_set@2x.png */; };
+		CE58A9761C91249700433817 /* tab_ico_index_set@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE58A9751C91249700433817 /* tab_ico_index_set@3x.png */; };
+		CE58A9781C9124AC00433817 /* tab_ico_my_nor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE58A9771C9124AC00433817 /* tab_ico_my_nor@2x.png */; };
+		CE58A97A1C9124B000433817 /* tab_ico_my_nor@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE58A9791C9124B000433817 /* tab_ico_my_nor@3x.png */; };
+		CE58A97C1C9124B300433817 /* tab_ico_my_set@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE58A97B1C9124B300433817 /* tab_ico_my_set@2x.png */; };
+		CE58A97E1C9124B900433817 /* tab_ico_my_set@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE58A97D1C9124B900433817 /* tab_ico_my_set@3x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE58A91F1C91146100433817 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE58A8FD1C91146100433817 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE58A9041C91146100433817;
+			remoteInfo = "封装Tabbar和Navgationbar";
+		};
+		CE58A92A1C91146100433817 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE58A8FD1C91146100433817 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE58A9041C91146100433817;
+			remoteInfo = "封装Tabbar和Navgationbar";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8F90374D1E07E4FD00FF76AD /* hViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hViewController.h; sourceTree = "<group>"; };
+		8F90374E1E07E4FD00FF76AD /* hViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = hViewController.m; sourceTree = "<group>"; };
+		8F9037531E07E51400FF76AD /* gViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gViewController.h; sourceTree = "<group>"; };
+		8F9037541E07E51400FF76AD /* gViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = gViewController.m; sourceTree = "<group>"; };
+		8F9037561E07E52000FF76AD /* bViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bViewController.h; sourceTree = "<group>"; };
+		8F9037571E07E52000FF76AD /* bViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = bViewController.m; sourceTree = "<group>"; };
+		8F9037591E07E5BD00FF76AD /* hggBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hggBar.h; sourceTree = "<group>"; };
+		8F90375A1E07E5BD00FF76AD /* hggBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = hggBar.m; sourceTree = "<group>"; };
+		8FBC80021DDAE7720057B07D /* TCHGGViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCHGGViewController.h; sourceTree = "<group>"; };
+		8FBC80031DDAE7720057B07D /* TCHGGViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCHGGViewController.m; sourceTree = "<group>"; };
+		B93577671F42D11600238F0B /* OtherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OtherViewController.h; path = View/OtherViewController.h; sourceTree = "<group>"; };
+		B93577681F42D11600238F0B /* OtherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OtherViewController.m; path = View/OtherViewController.m; sourceTree = "<group>"; };
+		B935776A1F42D32200238F0B /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		CE58A9051C91146100433817 /* 封装Tabbar和Navgationbar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "封装Tabbar和Navgationbar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE58A9091C91146100433817 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE58A90B1C91146100433817 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CE58A90C1C91146100433817 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CE58A9121C91146100433817 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE58A9141C91146100433817 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE58A9171C91146100433817 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE58A9191C91146100433817 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE58A91E1C91146100433817 /* 封装Tabbar和NavgationbarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "封装Tabbar和NavgationbarTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE58A9221C91146100433817 /* __Tabbar_NavgationbarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __Tabbar_NavgationbarTests.m; sourceTree = "<group>"; };
+		CE58A9241C91146100433817 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE58A9291C91146100433817 /* 封装Tabbar和NavgationbarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "封装Tabbar和NavgationbarUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE58A92D1C91146100433817 /* __Tabbar_NavgationbarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __Tabbar_NavgationbarUITests.m; sourceTree = "<group>"; };
+		CE58A92F1C91146100433817 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE58A93F1C91170200433817 /* JseTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JseTabBar.h; sourceTree = "<group>"; };
+		CE58A9401C91170200433817 /* JseTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JseTabBar.m; sourceTree = "<group>"; };
+		CE58A9431C91178200433817 /* TitleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleButton.h; sourceTree = "<group>"; };
+		CE58A9441C91178200433817 /* TitleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleButton.m; sourceTree = "<group>"; };
+		CE58A94F1C9118A300433817 /* UIBarButtonItem+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Extension.h"; sourceTree = "<group>"; };
+		CE58A9501C9118A600433817 /* UIBarButtonItem+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Extension.m"; sourceTree = "<group>"; };
+		CE58A9521C9118A900433817 /* UIView+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		CE58A9531C9118AC00433817 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		CE58A95A1C911A1100433817 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		CE58A95B1C911A1100433817 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		CE58A95D1C911A3D00433817 /* GatherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GatherViewController.h; sourceTree = "<group>"; };
+		CE58A95E1C911A3D00433817 /* GatherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GatherViewController.m; sourceTree = "<group>"; };
+		CE58A9601C911A4E00433817 /* MineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
+		CE58A9611C911A4E00433817 /* MineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
+		CE58A9631C911BF700433817 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		CE58A9641C911CEC00433817 /* JseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JseViewController.h; sourceTree = "<group>"; };
+		CE58A9651C911CEC00433817 /* JseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JseViewController.m; sourceTree = "<group>"; };
+		CE58A9671C91247000433817 /* tab_ico_alliance_nor@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_ico_alliance_nor@2x.png"; sourceTree = "<group>"; };
+		CE58A9691C91247500433817 /* tab_ico_alliance_nor@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_ico_alliance_nor@3x.png"; sourceTree = "<group>"; };
+		CE58A96B1C91247A00433817 /* tab_ico_alliance_sel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_ico_alliance_sel@2x.png"; sourceTree = "<group>"; };
+		CE58A96D1C91247E00433817 /* tab_ico_alliance_sel@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_ico_alliance_sel@3x.png"; sourceTree = "<group>"; };
+		CE58A96F1C91248800433817 /* tab_ico_index_nor@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_ico_index_nor@2x.png"; sourceTree = "<group>"; };
+		CE58A9711C91248E00433817 /* tab_ico_index_nor@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_ico_index_nor@3x.png"; sourceTree = "<group>"; };
+		CE58A9731C91249300433817 /* tab_ico_index_set@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_ico_index_set@2x.png"; sourceTree = "<group>"; };
+		CE58A9751C91249700433817 /* tab_ico_index_set@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_ico_index_set@3x.png"; sourceTree = "<group>"; };
+		CE58A9771C9124AC00433817 /* tab_ico_my_nor@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_ico_my_nor@2x.png"; sourceTree = "<group>"; };
+		CE58A9791C9124B000433817 /* tab_ico_my_nor@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_ico_my_nor@3x.png"; sourceTree = "<group>"; };
+		CE58A97B1C9124B300433817 /* tab_ico_my_set@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_ico_my_set@2x.png"; sourceTree = "<group>"; };
+		CE58A97D1C9124B900433817 /* tab_ico_my_set@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_ico_my_set@3x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE58A9021C91146100433817 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE58A91B1C91146100433817 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE58A9261C91146100433817 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE58A8FC1C91146100433817 = {
+			isa = PBXGroup;
+			children = (
+				CE58A9071C91146100433817 /* 封装Tabbar和Navgationbar */,
+				CE58A9211C91146100433817 /* 封装Tabbar和NavgationbarTests */,
+				CE58A92C1C91146100433817 /* 封装Tabbar和NavgationbarUITests */,
+				CE58A9061C91146100433817 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE58A9061C91146100433817 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE58A9051C91146100433817 /* 封装Tabbar和Navgationbar.app */,
+				CE58A91E1C91146100433817 /* 封装Tabbar和NavgationbarTests.xctest */,
+				CE58A9291C91146100433817 /* 封装Tabbar和NavgationbarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE58A9071C91146100433817 /* 封装Tabbar和Navgationbar */ = {
+			isa = PBXGroup;
+			children = (
+				CE58A9591C9119F800433817 /* 3个控制器 */,
+				CE58A9461C91180E00433817 /* Category */,
+				CE58A9421C91175C00433817 /* Tool */,
+				CE58A93B1C91167E00433817 /* View */,
+				CE58A90B1C91146100433817 /* AppDelegate.h */,
+				CE58A90C1C91146100433817 /* AppDelegate.m */,
+				B93577671F42D11600238F0B /* OtherViewController.h */,
+				B93577681F42D11600238F0B /* OtherViewController.m */,
+				CE58A9641C911CEC00433817 /* JseViewController.h */,
+				CE58A9651C911CEC00433817 /* JseViewController.m */,
+				CE58A9111C91146100433817 /* Main.storyboard */,
+				CE58A9141C91146100433817 /* Assets.xcassets */,
+				CE58A9161C91146100433817 /* LaunchScreen.storyboard */,
+				CE58A9191C91146100433817 /* Info.plist */,
+				CE58A9081C91146100433817 /* Supporting Files */,
+				B935776A1F42D32200238F0B /* Header.h */,
+			);
+			path = "封装Tabbar和Navgationbar";
+			sourceTree = "<group>";
+		};
+		CE58A9081C91146100433817 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE58A96F1C91248800433817 /* tab_ico_index_nor@2x.png */,
+				CE58A9711C91248E00433817 /* tab_ico_index_nor@3x.png */,
+				CE58A9731C91249300433817 /* tab_ico_index_set@2x.png */,
+				CE58A9751C91249700433817 /* tab_ico_index_set@3x.png */,
+				CE58A9671C91247000433817 /* tab_ico_alliance_nor@2x.png */,
+				CE58A9691C91247500433817 /* tab_ico_alliance_nor@3x.png */,
+				CE58A96B1C91247A00433817 /* tab_ico_alliance_sel@2x.png */,
+				CE58A96D1C91247E00433817 /* tab_ico_alliance_sel@3x.png */,
+				CE58A9771C9124AC00433817 /* tab_ico_my_nor@2x.png */,
+				CE58A9791C9124B000433817 /* tab_ico_my_nor@3x.png */,
+				CE58A97B1C9124B300433817 /* tab_ico_my_set@2x.png */,
+				CE58A97D1C9124B900433817 /* tab_ico_my_set@3x.png */,
+				CE58A9631C911BF700433817 /* PrefixHeader.pch */,
+				CE58A9091C91146100433817 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE58A9211C91146100433817 /* 封装Tabbar和NavgationbarTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE58A9221C91146100433817 /* __Tabbar_NavgationbarTests.m */,
+				CE58A9241C91146100433817 /* Info.plist */,
+			);
+			path = "封装Tabbar和NavgationbarTests";
+			sourceTree = "<group>";
+		};
+		CE58A92C1C91146100433817 /* 封装Tabbar和NavgationbarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CE58A92D1C91146100433817 /* __Tabbar_NavgationbarUITests.m */,
+				CE58A92F1C91146100433817 /* Info.plist */,
+			);
+			path = "封装Tabbar和NavgationbarUITests";
+			sourceTree = "<group>";
+		};
+		CE58A93B1C91167E00433817 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CE58A93F1C91170200433817 /* JseTabBar.h */,
+				CE58A9401C91170200433817 /* JseTabBar.m */,
+				8F9037591E07E5BD00FF76AD /* hggBar.h */,
+				8F90375A1E07E5BD00FF76AD /* hggBar.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CE58A9421C91175C00433817 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				CE58A9431C91178200433817 /* TitleButton.h */,
+				CE58A9441C91178200433817 /* TitleButton.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		CE58A9461C91180E00433817 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				CE58A94F1C9118A300433817 /* UIBarButtonItem+Extension.h */,
+				CE58A9501C9118A600433817 /* UIBarButtonItem+Extension.m */,
+				CE58A9521C9118A900433817 /* UIView+Extension.h */,
+				CE58A9531C9118AC00433817 /* UIView+Extension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		CE58A9591C9119F800433817 /* 3个控制器 */ = {
+			isa = PBXGroup;
+			children = (
+				CE58A95A1C911A1100433817 /* MainViewController.h */,
+				CE58A95B1C911A1100433817 /* MainViewController.m */,
+				CE58A95D1C911A3D00433817 /* GatherViewController.h */,
+				CE58A95E1C911A3D00433817 /* GatherViewController.m */,
+				CE58A9601C911A4E00433817 /* MineViewController.h */,
+				CE58A9611C911A4E00433817 /* MineViewController.m */,
+				8FBC80021DDAE7720057B07D /* TCHGGViewController.h */,
+				8FBC80031DDAE7720057B07D /* TCHGGViewController.m */,
+				8F90374D1E07E4FD00FF76AD /* hViewController.h */,
+				8F90374E1E07E4FD00FF76AD /* hViewController.m */,
+				8F9037531E07E51400FF76AD /* gViewController.h */,
+				8F9037541E07E51400FF76AD /* gViewController.m */,
+				8F9037561E07E52000FF76AD /* bViewController.h */,
+				8F9037571E07E52000FF76AD /* bViewController.m */,
+			);
+			path = "3个控制器";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE58A9041C91146100433817 /* 封装Tabbar和Navgationbar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE58A9321C91146100433817 /* Build configuration list for PBXNativeTarget "封装Tabbar和Navgationbar" */;
+			buildPhases = (
+				CE58A9011C91146100433817 /* Sources */,
+				CE58A9021C91146100433817 /* Frameworks */,
+				CE58A9031C91146100433817 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "封装Tabbar和Navgationbar";
+			productName = "封装Tabbar和Navgationbar";
+			productReference = CE58A9051C91146100433817 /* 封装Tabbar和Navgationbar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE58A91D1C91146100433817 /* 封装Tabbar和NavgationbarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE58A9351C91146100433817 /* Build configuration list for PBXNativeTarget "封装Tabbar和NavgationbarTests" */;
+			buildPhases = (
+				CE58A91A1C91146100433817 /* Sources */,
+				CE58A91B1C91146100433817 /* Frameworks */,
+				CE58A91C1C91146100433817 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE58A9201C91146100433817 /* PBXTargetDependency */,
+			);
+			name = "封装Tabbar和NavgationbarTests";
+			productName = "封装Tabbar和NavgationbarTests";
+			productReference = CE58A91E1C91146100433817 /* 封装Tabbar和NavgationbarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CE58A9281C91146100433817 /* 封装Tabbar和NavgationbarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE58A9381C91146100433817 /* Build configuration list for PBXNativeTarget "封装Tabbar和NavgationbarUITests" */;
+			buildPhases = (
+				CE58A9251C91146100433817 /* Sources */,
+				CE58A9261C91146100433817 /* Frameworks */,
+				CE58A9271C91146100433817 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE58A92B1C91146100433817 /* PBXTargetDependency */,
+			);
+			name = "封装Tabbar和NavgationbarUITests";
+			productName = "封装Tabbar和NavgationbarUITests";
+			productReference = CE58A9291C91146100433817 /* 封装Tabbar和NavgationbarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE58A8FD1C91146100433817 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = UnderZero;
+				TargetAttributes = {
+					CE58A9041C91146100433817 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					CE58A91D1C91146100433817 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = CE58A9041C91146100433817;
+					};
+					CE58A9281C91146100433817 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = CE58A9041C91146100433817;
+					};
+				};
+			};
+			buildConfigurationList = CE58A9001C91146100433817 /* Build configuration list for PBXProject "封装Tabbar和Navgationbar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE58A8FC1C91146100433817;
+			productRefGroup = CE58A9061C91146100433817 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE58A9041C91146100433817 /* 封装Tabbar和Navgationbar */,
+				CE58A91D1C91146100433817 /* 封装Tabbar和NavgationbarTests */,
+				CE58A9281C91146100433817 /* 封装Tabbar和NavgationbarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE58A9031C91146100433817 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE58A9741C91249300433817 /* tab_ico_index_set@2x.png in Resources */,
+				CE58A96C1C91247A00433817 /* tab_ico_alliance_sel@2x.png in Resources */,
+				CE58A9781C9124AC00433817 /* tab_ico_my_nor@2x.png in Resources */,
+				CE58A9181C91146100433817 /* LaunchScreen.storyboard in Resources */,
+				CE58A9721C91248E00433817 /* tab_ico_index_nor@3x.png in Resources */,
+				CE58A9151C91146100433817 /* Assets.xcassets in Resources */,
+				CE58A9701C91248800433817 /* tab_ico_index_nor@2x.png in Resources */,
+				CE58A97C1C9124B300433817 /* tab_ico_my_set@2x.png in Resources */,
+				CE58A96E1C91247E00433817 /* tab_ico_alliance_sel@3x.png in Resources */,
+				CE58A97A1C9124B000433817 /* tab_ico_my_nor@3x.png in Resources */,
+				CE58A9761C91249700433817 /* tab_ico_index_set@3x.png in Resources */,
+				CE58A9131C91146100433817 /* Main.storyboard in Resources */,
+				CE58A97E1C9124B900433817 /* tab_ico_my_set@3x.png in Resources */,
+				CE58A9681C91247000433817 /* tab_ico_alliance_nor@2x.png in Resources */,
+				CE58A96A1C91247500433817 /* tab_ico_alliance_nor@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE58A91C1C91146100433817 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE58A9271C91146100433817 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE58A9011C91146100433817 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE58A9541C9118AC00433817 /* UIView+Extension.m in Sources */,
+				CE58A9661C911CEC00433817 /* JseViewController.m in Sources */,
+				8F9037551E07E51400FF76AD /* gViewController.m in Sources */,
+				CE58A9411C91170200433817 /* JseTabBar.m in Sources */,
+				CE58A90D1C91146100433817 /* AppDelegate.m in Sources */,
+				CE58A95C1C911A1100433817 /* MainViewController.m in Sources */,
+				8F90374F1E07E4FD00FF76AD /* hViewController.m in Sources */,
+				CE58A9451C91178200433817 /* TitleButton.m in Sources */,
+				8F9037581E07E52000FF76AD /* bViewController.m in Sources */,
+				8FBC80041DDAE7720057B07D /* TCHGGViewController.m in Sources */,
+				CE58A90A1C91146100433817 /* main.m in Sources */,
+				B93577691F42D11600238F0B /* OtherViewController.m in Sources */,
+				CE58A9511C9118A600433817 /* UIBarButtonItem+Extension.m in Sources */,
+				CE58A9621C911A4E00433817 /* MineViewController.m in Sources */,
+				8F90375B1E07E5BD00FF76AD /* hggBar.m in Sources */,
+				CE58A95F1C911A3D00433817 /* GatherViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE58A91A1C91146100433817 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE58A9231C91146100433817 /* __Tabbar_NavgationbarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE58A9251C91146100433817 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE58A92E1C91146100433817 /* __Tabbar_NavgationbarUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE58A9201C91146100433817 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE58A9041C91146100433817 /* 封装Tabbar和Navgationbar */;
+			targetProxy = CE58A91F1C91146100433817 /* PBXContainerItemProxy */;
+		};
+		CE58A92B1C91146100433817 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE58A9041C91146100433817 /* 封装Tabbar和Navgationbar */;
+			targetProxy = CE58A92A1C91146100433817 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE58A9111C91146100433817 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE58A9121C91146100433817 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE58A9161C91146100433817 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE58A9171C91146100433817 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE58A9301C91146100433817 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CE58A9311C91146100433817 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE58A9331C91146100433817 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "/Users/hugaoguang/Desktop/自己封/封装Tabbar和Navgationbar/封装Tabbar和Navgationbar/PrefixHeader.pch";
+				INFOPLIST_FILE = "封装Tabbar和Navgationbar/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mediaver.www.--Tabbar-Navgationbar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CE58A9341C91146100433817 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "/Users/hugaoguang/Desktop/自己封/封装Tabbar和Navgationbar/封装Tabbar和Navgationbar/PrefixHeader.pch";
+				INFOPLIST_FILE = "封装Tabbar和Navgationbar/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mediaver.www.--Tabbar-Navgationbar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CE58A9361C91146100433817 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "封装Tabbar和NavgationbarTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mediaver.www.--Tabbar-NavgationbarTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/封装Tabbar和Navgationbar.app/封装Tabbar和Navgationbar";
+			};
+			name = Debug;
+		};
+		CE58A9371C91146100433817 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "封装Tabbar和NavgationbarTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mediaver.www.--Tabbar-NavgationbarTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/封装Tabbar和Navgationbar.app/封装Tabbar和Navgationbar";
+			};
+			name = Release;
+		};
+		CE58A9391C91146100433817 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "封装Tabbar和NavgationbarUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mediaver.www.--Tabbar-NavgationbarUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "封装Tabbar和Navgationbar";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CE58A93A1C91146100433817 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "封装Tabbar和NavgationbarUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mediaver.www.--Tabbar-NavgationbarUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "封装Tabbar和Navgationbar";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE58A9001C91146100433817 /* Build configuration list for PBXProject "封装Tabbar和Navgationbar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE58A9301C91146100433817 /* Debug */,
+				CE58A9311C91146100433817 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE58A9321C91146100433817 /* Build configuration list for PBXNativeTarget "封装Tabbar和Navgationbar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE58A9331C91146100433817 /* Debug */,
+				CE58A9341C91146100433817 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE58A9351C91146100433817 /* Build configuration list for PBXNativeTarget "封装Tabbar和NavgationbarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE58A9361C91146100433817 /* Debug */,
+				CE58A9371C91146100433817 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE58A9381C91146100433817 /* Build configuration list for PBXNativeTarget "封装Tabbar和NavgationbarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE58A9391C91146100433817 /* Debug */,
+				CE58A93A1C91146100433817 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE58A8FD1C91146100433817 /* Project object */;
+}
